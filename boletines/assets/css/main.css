@@ -17,20 +17,29 @@ a{
     color: tomato;
 }
 
+
+a:hover{
+    opacity:0.8;
+}
+
 .tittle{
     text-align: center;
     text-transform: uppercase;
+    border-bottom:#ec008c solid 4px;
+    padding-bottom:1em;
 }
 
 
 .container{
+
     background: #ec008c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+
 }
 
 
@@ -50,6 +59,7 @@ a{
     border-radius: 8px;
     padding: 20px;
     position: relative;
+
 }
 
 
@@ -95,11 +105,33 @@ a{
 }
 
 
-.tittle-item{
-    border-bottom:#ec008c solid 4px;
-    padding-bottom:1em;
+.fa-pizza-slice{
+    margin-right: 1em;
+    size:5em;
+    color: darkorange;
 }
 
+
+.adress{
+
+    font-weight: bold;
+    color:#c2137c ;
+    font-size: 1.2em;
+}
+
+.tittle-item{
+    border-bottom:#c2137c solid 4px;
+    padding-bottom:1em;
+    font-size: 2em;
+}
+
+
+.imagen{
+    float: left;
+    width: 20em;
+    height: 13em;
+    padding-right: 1em;
+}
 
 .position{
     background-color: #ec008c;
@@ -109,6 +141,8 @@ a{
     position: static;
     bottom: 100px;
     right: 200px;
+    margin-right: 0.5em;
+
 }
 
 .div{
